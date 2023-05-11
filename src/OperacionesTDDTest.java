@@ -24,4 +24,9 @@ class OperacionesTDDTest {
         int resultadoEsperado = OperacionesTDD.suma("1,1,2");
         assertEquals(4, resultadoEsperado);
     }
+    @Test
+    void OperacionesTDD5() {
+        int resultadoEsperado = OperacionesTDD.suma("1,2,");
+        assertEquals(-1, resultadoEsperado);
+    }
 }
