@@ -33,4 +33,24 @@ class FizzBuzzTest {
         String resultadoEsperado = FizzBuzz.palabraFizzBuzz(6);
         assertEquals("Fizz", resultadoEsperado);
     }
+    @org.junit.jupiter.api.Test
+    void palabraFizzBuzz7() {
+        String resultadoEsperado = FizzBuzz.palabraFizzBuzz(7);
+        assertEquals("7", resultadoEsperado);
+    }
+    @org.junit.jupiter.api.Test
+    void palabraFizzBuzz8() {
+        String resultadoEsperado = FizzBuzz.palabraFizzBuzz(8);
+        assertEquals("8", resultadoEsperado);
+    }
+    @org.junit.jupiter.api.Test
+    void palabraFizzBuzz9() {
+        String resultadoEsperado = FizzBuzz.palabraFizzBuzz(9);
+        assertEquals("Fizz", resultadoEsperado);
+    }
+    @org.junit.jupiter.api.Test
+    void palabraFizzBuzz10() {
+        String resultadoEsperado = FizzBuzz.palabraFizzBuzz(10);
+        assertEquals("Buzz", resultadoEsperado);
+    }
 }
